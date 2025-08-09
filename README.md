@@ -76,7 +76,7 @@ For Hardware:
 ![Build](Add photos of build process here)
 *Explain the build steps*
 
-![Final](Add photo of final product here)
+![Final](excuse.png)
 *Explain the final build*
 
 ### Project Demo
