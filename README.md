@@ -1,15 +1,15 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [The Perfect Excuse] 🎯
+# The Perfect Excuse 🎯
 
 
 ## Basic Details
-### Team Name: [SONDER tbd]
+### Team Name: SONDER tbd
 
 
 ### Team Members
-- Team Lead: Mohammed Sinan] - [EMEA Arts and science College]
+- Team Lead: Mohammed Sinan] - EMEA Arts and science College
 
 
 ### Project Description
