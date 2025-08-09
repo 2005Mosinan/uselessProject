@@ -81,7 +81,7 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+(Excuse Generator.mp4)
 *Explain what the video demonstrates*
 
 # Additional Demos
