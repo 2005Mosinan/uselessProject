@@ -7,7 +7,6 @@
 ## Basic Details
 ### Team Name: SONDER tbd
 
-
 ### Team Members
 - Team Lead: Mohammed Sinan] - EMEA Arts and science College
 
