@@ -1,0 +1,4 @@
+content: 
+{
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html"}]
+}
