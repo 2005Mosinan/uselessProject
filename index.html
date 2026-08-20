@@ -228,54 +228,131 @@
 
 <script>
     const excuses = {
-        work: [
-            "Sorry, I got stuck in traffic… caused by ducks crossing the road.",
-            "I was abducted by friendly aliens. They dropped me back, but late.",
-            "My Zoom meeting turned into a cooking class by accident.",
-            "I got locked out of my own email account.",
-            "I was helping my neighbor catch their runaway turtle."
-        ],
-        school: [
-            "My homework was eaten by my neighbor's rabbit.",
-            "I was making a sandwich but it turned into a five-course meal.",
-            "I joined the wrong Google Classroom… in another school.",
-            "I lost my notebook when my dog decided it was a chew toy.",
-            "I was stuck in a staring contest with my cat. He won."
-        ],
-        gym: [
-            "I couldn't find my gym shoes because my dog was wearing them.",
-            "I was warming up… mentally… for three hours.",
-            "My water bottle leaked all over my gym bag. Disaster.",
-            "I pulled a muscle reaching for the TV remote.",
-            "I accidentally joined a yoga class for senior citizens. Stayed for tea."
-        ],
-        wife: [
-            "I was late because I was practicing how to agree with you in the mirror.",
-            "I couldn't come because I was Googling 'how to be a better husband'.",
-            "The GPS sent me to the flower shop instead of here.",
-            "I got distracted watching cute couple videos… for research.",
-            "I was trying to remember our anniversary date… took a while."
-        ],
-        girlfriend: [
-            "Sorry, I was busy writing you a song in my head.",
-            "I had to stop and delete all my ex's photos… twice.",
-            "I was picking out which smile of yours is my favorite.",
-            "I got stuck in traffic behind a wedding proposal.",
-            "I was practicing saying 'you're right' in five languages."
-        ],
-        husband: [
-            "I couldn't leave… the game went into overtime.",
-            "I was fixing something… that I broke earlier.",
-            "I was trying to open a jar but refused to admit defeat.",
-            "I had to explain to the cat why it's not allowed on the couch.",
-            "I was watching YouTube tutorials on how to fold laundry."
-        ],
-        boyfriend: [
-            "I got lost trying to find the perfect snack for movie night.",
-            "I was busy planning our dream vacation… in my head.",
-            "I couldn't decide which hoodie of mine you'd like to steal.",
-            "I was rehearsing pickup lines in case I forgot how to talk to you.",
-            "I was stalking cute couple TikToks for inspiration."
+        const excuses = {
+    work: [
+        "Sorry, I was late because my alarm clock and I are currently going through a toxic breakup.",
+        "I got stuck in traffic. Unfortunately, I was the traffic.",
+        "My Wi-Fi stopped working, so I had to spend 20 minutes remembering what people looked like.",
+        "I was ready to leave, but my cat looked at me like I had disappointed him.",
+        "I accidentally replied 'You too' when my boss said 'Have a good day.' I needed time to recover.",
+        "I was fighting for my life trying to open a ketchup packet.",
+        "Google Maps said I would arrive in 12 minutes. Google Maps lied to me personally.",
+        "I couldn't come on time because I was mentally preparing to come on time.",
+        "My chair was too comfortable. I became emotionally attached.",
+        "I was stuck behind someone walking at exactly 0.5 km/h.",
+        "I had an important meeting with my bed. It ran overtime.",
+        "My brain installed an update without asking me.",
+        "I was productive yesterday, so I needed today to recover.",
+        "I accidentally opened Instagram for 'two minutes.' It is now legally tomorrow.",
+        "I was busy pretending to work until I actually had to work."
+    ],
+
+    school: [
+        "My homework wasn't missing. It was simply exploring the world independently.",
+        "I finished my homework, but my printer and I have unresolved personal issues.",
+        "I was going to study, but my bed started giving motivational speeches.",
+        "My pen ran out of ink exactly when my future depended on it.",
+        "I forgot my homework at home. Then I forgot why I forgot it.",
+        "My brain was present, but unfortunately it was on airplane mode.",
+        "I opened the textbook and immediately got a notification from my brain saying 'Try again later.'",
+        "I couldn't finish the assignment because my Wi-Fi decided education wasn't necessary.",
+        "My dog didn't eat my homework. He just judged it.",
+        "I was studying so hard that I accidentally took a three-hour educational nap.",
+        "I had an existential crisis halfway through question number two.",
+        "I knew the answer, but it was shy and refused to come out.",
+        "My calculator needed emotional support.",
+        "I was going to submit it yesterday, but yesterday got away from me.",
+        "I spent the whole night studying... the ceiling."
+    ],
+
+    gym: [
+        "I was going to the gym, but my motivation took a different route.",
+        "I pulled a muscle reaching for my phone charger.",
+        "My body said 'gym,' but my soul said 'biriyani.'",
+        "I did one squat and immediately started questioning my life choices.",
+        "I couldn't go because my gym clothes were too clean to waste on exercise.",
+        "I was resting between sets. Unfortunately, the set was getting farther away.",
+        "I accidentally watched a workout reel instead of doing the workout.",
+        "My muscles are currently on strike.",
+        "I had leg day yesterday. Today is emotional recovery day.",
+        "I walked past the gym. That's basically cardio.",
+        "I couldn't find my gym shoes. They were hiding from responsibility.",
+        "I was mentally lifting weights. You just couldn't see them.",
+        "My water bottle was heavy enough. I considered that a workout.",
+        "I was going to exercise, but my playlist wasn't emotionally ready.",
+        "I joined the gym for the atmosphere. The exercise part was optional."
+    ],
+
+    wife: [
+        "I was late because I was practicing saying 'Yes, you're right' with confidence.",
+        "I didn't forget our anniversary. I was testing whether you remembered.",
+        "I was buying you flowers, but then I remembered you might ask why I was buying flowers.",
+        "I was preparing my defense before you even asked the question.",
+        "My GPS knew where I was going. My survival instincts knew better.",
+        "I was trying to remember what I did wrong before you told me.",
+        "I spent 45 minutes choosing a restaurant and somehow still chose the wrong one.",
+        "I was Googling 'romantic things to do' and accidentally searched 'cheap romantic things.'",
+        "I was busy making a list of things I agree with you about.",
+        "I couldn't answer immediately because I was calculating the safest possible response.",
+        "I was practicing my apology in case this conversation went badly.",
+        "I got distracted thinking about how lucky I am. It took longer than expected.",
+        "I was hiding because I heard the words 'We need to talk.'",
+        "I was trying to remember where I put the thing you asked me to remember.",
+        "I was late because I didn't want to arrive before you and risk looking suspicious."
+    ],
+
+    girlfriend: [
+        "Sorry, I was practicing my 'I definitely wasn't thinking about you' face.",
+        "I got distracted looking at your photos. I accidentally started a full documentary.",
+        "I was choosing an outfit that would make you say 'You look good.'",
+        "I was writing a romantic message, deleted it, rewrote it, deleted it again, and finally sent 'hey.'",
+        "I was trying to think of a cute nickname for you and accidentally invented seventeen.",
+        "I was busy deciding which picture of you deserves to be my favorite.",
+        "I got stuck watching couple videos and started imagining our future. My bad.",
+        "I was preparing a surprise, but then I forgot what the surprise was.",
+        "I was trying to make you jealous but got jealous myself.",
+        "I was practicing flirting with you in my head. It went perfectly there.",
+        "I was going to text you first, but then I thought you were going to text me first.",
+        "I spent 30 minutes choosing the perfect emoji for my message.",
+        "I was thinking about you so hard that I forgot what I was doing.",
+        "I was busy being your biggest fan from a safe distance.",
+        "I didn't reply because I wanted to seem mysterious. I immediately regretted it."
+    ],
+
+    husband: [
+        "I was fixing something, but then I realized I had no idea what I was fixing.",
+        "The game went into overtime. Then my patience went into overtime.",
+        "I was going to do it, but the remote was approximately 14 centimeters too far away.",
+        "I was looking for something. I forgot what it was, but I'm still looking.",
+        "I was watching a tutorial on how to fix the problem. The tutorial created three new problems.",
+        "I was about to help, but the cat sat on me. I legally couldn't move.",
+        "I was cleaning the house. Then I found the sofa.",
+        "I was trying to save money, so I didn't buy the thing you asked me to buy.",
+        "I was thinking about doing the laundry. Thinking is the first step.",
+        "I couldn't hear you because I was deeply focused on absolutely nothing.",
+        "I was trying to remember what you told me five minutes ago.",
+        "I was busy fixing the Wi-Fi. The Wi-Fi was actually fine.",
+        "I opened the fridge to think. It worked surprisingly well.",
+        "I was going to apologize, but I wanted to understand what I did first.",
+        "I wasn't ignoring you. I was buffering."
+    ],
+
+    boyfriend: [
+        "Sorry, I was trying to find the perfect snack worthy of our relationship.",
+        "I was choosing which hoodie you would steal next.",
+        "I was practicing what to say when I see you and immediately forget English.",
+        "I was watching cute couple videos for completely scientific research.",
+        "I was trying to think of a pickup line so bad that you'd laugh and stay.",
+        "I got distracted looking at your profile. Again.",
+        "I was planning our imaginary vacation with a budget of ₹47.",
+        "I was choosing a song for our imaginary movie montage.",
+        "I was trying to look cool before meeting you. The plan failed.",
+        "I was rehearsing our conversation in my head. You said different things there.",
+        "I was going to text you, but I wanted to give you a chance to miss me.",
+        "I was searching for the perfect meme to describe my feelings. It doesn't exist yet.",
+        "I was busy wondering how you manage to look this good all the time.",
+        "I accidentally opened your chat, smiled at my phone, and forgot why I opened it.",
+        "I was emotionally unavailable for 12 minutes. I'm back now."
         ]
     };
 
